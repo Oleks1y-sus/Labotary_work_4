@@ -15,7 +15,6 @@ let book = {
   }
 };
 
-console.log("--- Завдання 1: Початкова книга ---");
 book.bookInfo();
 
 book.isRead = !book.isRead;
@@ -39,7 +38,6 @@ function displayLibrary() {
   });
 }
 
-console.log("\n--- Завдання 2: Список книг у бібліотеці ---");
 displayLibrary();
 
 library.push({ title: "The Great Gatsby", author: "F. Scott Fitzgerald", year: 1925, isRead: false });
